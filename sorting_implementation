@@ -1,0 +1,46 @@
+lis1 = [2,1,5,9,6,3,8,7,4,5,6]
+lis11 = [2,1,5,9,6,3,8,7,4,5,6]
+word = "python"
+sentence = "python is cool"
+tup = (4,5,3,2,0,8,3,1,5)
+lis2 = ['python','is','cool']
+lis22 = ['python','is','cool']
+dic = {'k1':100,'k5':500,'k4':400,'k0':000,'k2':200}
+
+print("object.sort(key,reverse)  implementation")
+lis1.sort()
+print(lis1)
+
+#word.sort() print(word)
+#sentence.sort() print(sentence)
+#AttributeError: 'str' object has no attribute 'sort'
+
+#tup.sort() print(tup) 
+#AttributeError: 'tuple' object has no attribute 'sort'
+
+lis2.sort()
+print(lis2)
+
+#dic.sort() print(dic) 
+#AttributeError: 'dict' object has no attribute 'sort'
+print("")
+print("sorted(object,key,reverse) implementation")
+print (sorted(lis11))
+print (sorted(word))
+print (sorted(sentence))
+print (sorted(tup))
+print (sorted(lis22))
+print (sorted(dic))
+
+#output
+object.sort(key,reverse)  implementation
+[1, 2, 3, 4, 5, 5, 6, 6, 7, 8, 9]
+['cool', 'is', 'python']
+
+sorted(object,key,reverse) implementation
+[1, 2, 3, 4, 5, 5, 6, 6, 7, 8, 9]
+['h', 'n', 'o', 'p', 't', 'y']
+[' ', ' ', 'c', 'h', 'i', 'l', 'n', 'o', 'o', 'o', 'p', 's', 't', 'y']
+[0, 1, 2, 3, 3, 4, 5, 5, 8]
+['cool', 'is', 'python']
+['k0', 'k1', 'k2', 'k4', 'k5']
