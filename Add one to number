@@ -30,9 +30,8 @@ class Solution:
         new = ''
         for x in A:
             new = new + str(x)
-
+            
         new = int(new) + 1
-
         new = str(new)
         
         for i in new:
